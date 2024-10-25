@@ -8,7 +8,10 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 ## Activity
 
-1. Download Microsoft VS Code, [here](https://code.visualstudio.com/download).
+1. Download Microsoft VS Code, [here](https://code.visualstudio.com/download). 
+    - If you are on a Windows machine, you may also need to download the Git client, [here](https://git-scm.com/downloads/win). 
+    - On Mac OS, there are a few options. The lightest is the binary, installable [here](https://sourceforge.net/projects/git-osx-installer/).
+    - Linux distros usually have Git pre-bundled.
 2. Open VS code and go to `source control` on the left panel
 <!-- ![enter-credentials](/img/source-control-clone.png "clone1") -->
 <img src="/img/source-control-clone.png" height="250">
