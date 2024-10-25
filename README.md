@@ -33,7 +33,7 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 8. Create a new file with your name (e.g., `matt.txt`) and enter some secret message
 <img src="/img/newfile.png" width="500">
 
-9. Return to the `source control` section (left in vscode window), select files that have been changed, and select `commit`.
+9. Return to the `source control` section (left in vscode window), select files that have been changed, add a MESSAGE, and select `commit`.
 <img src="/img/commit.png" height="250">
 
 10. Select 'sync changes' and select 'OK' about pushing to `origin/master`
