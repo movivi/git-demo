@@ -1,13 +1,18 @@
-# git-demo
-Demo for CBU Nov 2024 git lecture
+# REPO OVERVIEW, git-demo
+Practical demonstration for the 2024 lecture, _Good enough computational practices; data sharing, reproducible code, version control_ delivered in November, 2024 and the MRC Cognition and Brain Sciences Unit. 
+
+## Contact
+
+* Matthew Richards (matthew.richards@mrc-cbu.cam.ac.uk)
+* Lukas Gunschera (lukas.gunschera@mrc-cbu.cam.ac.uk)
 
 ## Activity
 
-1. Download Microsoft VS Code, (here)[https://code.visualstudio.com/download]
+1. Download Microsoft VS Code, [here](https://code.visualstudio.com/download).
 2. Open VS code and go to `source control` on the left panel
 <!-- ![enter-credentials](/img/source-control-clone.png "clone1") -->
 <img src="/img/source-control-clone.png" height="250">
-3. Select `clone repository` **git-demo** (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git)
+3. Select `clone repository` __git-demo__ (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git)
 <img src="/img/clone-repo.png" width="500">
 4. Create a repository destination (e.g., ~/Desktop)
 5. If prompted, allow trust to authors of the rep (will just contain text files, no executables)
