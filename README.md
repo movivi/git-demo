@@ -16,7 +16,9 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 <!-- ![enter-credentials](/img/source-control-clone.png "clone1") -->
 <img src="/img/source-control-clone.png" height="250">
 
-3. Select `clone repository` __git-demo__ (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git)
+3. Login to https://github.com/, select __create new repository__, enter a name (e.g., 'test') and click, 'create repository'.
+
+3. (*alternative*) Select `clone repository` __git-demo__ (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git)
 <img src="/img/clone-repo.png" width="500">
 
 4. Create a repository destination (e.g., ~/Desktop)
@@ -37,3 +39,9 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 <img src="/img/commit.png" height="250">
 
 10. Select 'sync changes' and select 'OK' about pushing to `origin/master`
+
+## Further git exercises
+
+Further Git (excellent) exercises courtesy of Nicola Rennie https://nrennie.rbind.io/training-git-r/examples.html
+
+
