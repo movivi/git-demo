@@ -6,7 +6,7 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 * Matthew Richards (matthew.richards@mrc-cbu.cam.ac.uk)
 * Lukas Gunschera (lukas.gunschera@mrc-cbu.cam.ac.uk)
 
-## Activity
+## Exercise 1: Setup repository and first commit!
 
 1. Download Microsoft VS Code, [here](https://code.visualstudio.com/download). 
     - If you are on a Windows machine, you may also need to download the Git client, [here](https://git-scm.com/downloads/win). 
@@ -16,9 +16,7 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 <!-- ![enter-credentials](/img/source-control-clone.png "clone1") -->
 <img src="/img/source-control-clone.png" height="250">
 
-3. Login to https://github.com/, select __create new repository__, enter a name (e.g., 'test') and click, 'create repository'.
-
-3. (*alternative*) Select `clone repository` __git-demo__ (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git)
+3. Login to https://github.com/, select __create new repository__, enter a name (e.g., 'test') and click, 'create repository'. Select `clone repository` __git-demo__ (NB. enter the URL source if required, (can get the URL from the github of your new repository page).
 <img src="/img/clone-repo.png" width="500">
 
 4. Create a repository destination (e.g., ~/Desktop)
@@ -40,8 +38,65 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 10. Select 'sync changes' and select 'OK' about pushing to `origin/master`
 
+## Exercise 2: Create a New Branch and Commit Changes
+
+1. Ensure you are in the 'source control' section (left in vscode window).
+
+2. Click on the branch name in bottom left corner of VS Code, should say `main` unless changed already.
+
+3. A drop-down window will appear at the top of the screen, select __+ create new branch__ and enter a name, e.g., `first-branch`.
+
+4. This will automatically switch you to the new branch.
+
+5. Open your existing file and make some changes. Save the file when done.
+
+6. Stage the changes by clicking the '+' icon for the file, and add a message. Then click, commit (checkmark) to commit the staged changes.
+
+## Exercise 3. Switch between branches
+
+1. Look at the bottom-left corner of the VS Code window, where the current branch name is displayed (e.g., `first-branch`).
+
+2. Click on the branch name and select main from the list to switch back to the main branch.
+
+3. Notice that the changes you made in feature-update are no longer visible in your files.
+
+4. You can switch back to feature-update at any time by clicking the branch name in the bottom left again and selecting feature-update.
+
+## Exercise 4. Check differences between files/branches
+
+1. In the Source Control panel, make additional changes to a file.
+
+2. To check the differences between this new change and the last commit, click on the file name under Changes. VS Code will open a split view showing the differences (known as a diff) between the current state and the last committed version.
+
+3. To compare branches, click the three dots (...) in the Source Control panel, select Compare with Branch..., and choose main.
+
+4. VS Code will open a new tab showing differences between your current branch (`first-branch`) and main.
+
+## Exercise 5. Merge branches
+
+1. Ensure you are currently on the main branch. If not, click the branch name in the bottom-left corner and select main.
+
+2. Click the three dots (...) in the Source Control panel and select Merge Branch....
+
+3. Choose first-branch from the list to merge it into main.
+
+4. If there are no conflicts, your branches will be merged, and the changes from first-branch will now appear in main.
+
+5. Check the file on the main branch to confirm that the changes from first-branch are now present.
+
+## Exercise 6 (bonus). Clone an existing repository
+
+1. Attempt to clone the repository used for this presentation. (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git).
+
+2. Create a new branch.
+
+3. Make a change to that branch file and commit those changes.
+
+4. Compare the differences.
+
+
 ## Further git exercises
 
-Further Git (excellent) exercises courtesy of Nicola Rennie https://nrennie.rbind.io/training-git-r/examples.html
+Further Git (excellent R-oriented) exercises courtesy of Nicola Rennie https://nrennie.rbind.io/training-git-r/examples.html
 
 
