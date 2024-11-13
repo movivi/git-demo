@@ -91,6 +91,8 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 5. Check the file on the main branch to confirm that the changes from first-branch are now present.
 
+6. Commit and sync changes to merge the branches on the online repository.
+
 ## Exercise 6. Checkout an old commit
 
 1. If you want to roll back to an old version/commit of your code
