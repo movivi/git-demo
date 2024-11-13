@@ -95,9 +95,13 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 ## Exercise 6. Checkout an old commit
 
-1. If you want to roll back to an old version/commit of your code
+1. If you want to roll back to an old version/commit of your code, right click on your desired commit and click `checkout detatched`. 
 
-## Exercise 6 (bonus). Clone an existing repository
+2. Jump between commits to see changes; reverting to a checkout of your latest commit.
+
+<img src="/img/checkout-old-branch.png" width="500">
+
+## Exercise 7 (bonus). Clone an existing repository
 
 1. Attempt to clone the repository used for this presentation. (NB. enter the URL source if required, https://github.com/mrhons-cbu/git-demo.git).
 
