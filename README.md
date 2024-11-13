@@ -6,6 +6,14 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 * Matthew Richards (matthew.richards@mrc-cbu.cam.ac.uk)
 * Lukas Gunschera (lukas.gunschera@mrc-cbu.cam.ac.uk)
 
+## Pre-exercise requirements
+
+Prior to completing the exercises, you will need to have:
+1. Git installed on your laptop, please install it before the session. See https://happygitwithr.com/install-git#install-git for instructions.
+2. Installed Visual Studio Code from https://code.visualstudio.com/
+3. Registered for a GitHub account at https://github.com/ before you attend the session. (nb There’s some advice on choosing a username here: https://happygitwithr.com/github-acct#username-advice). It is possible to complete the workshop without this step, everything will just be completed locally (Git version control), rather than also mirrored online (on GitHub).
+
+
 ## Exercise 1: Setup repository and first commit!
 
 1. Download Microsoft VS Code, [here](https://code.visualstudio.com/download). 
