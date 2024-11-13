@@ -19,6 +19,8 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 3. Login to https://github.com/, select __create new repository__, enter a name (e.g., 'test') and click, 'create repository'. Select `clone repository` __git-demo__ (NB. enter the URL source if required, (can get the URL from the github of your new repository page).
 <img src="/img/clone-repo.png" width="500">
 
+<img src="/img/repo-link.png" width="500">
+
 4. Create a repository destination (e.g., ~/Desktop)
 5. If prompted, allow trust to authors of the rep (will just contain text files, no executables)
 6. Configure git credentials in environment. Select the 'terminal' (bottom section of window):
@@ -45,6 +47,7 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 2. Click on the branch name in bottom left corner of VS Code, should say `main` unless changed already.
 
 3. A drop-down window will appear at the top of the screen, select __+ create new branch__ and enter a name, e.g., `first-branch`.
+<img src="/img/newbranch.png" width="500">
 
 4. This will automatically switch you to the new branch.
 
@@ -58,7 +61,7 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 2. Click on the branch name and select main from the list to switch back to the main branch.
 
-3. Notice that the changes you made in feature-update are no longer visible in your files.
+3. Notice that the changes you made in first-branch are no longer visible in your files.
 
 4. You can switch back to feature-update at any time by clicking the branch name in the bottom left again and selecting feature-update.
 
