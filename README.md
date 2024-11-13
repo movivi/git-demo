@@ -71,7 +71,9 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 2. To check the differences between this new change and the last commit, click on the file name under Changes. VS Code will open a split view showing the differences (known as a diff) between the current state and the last committed version.
 
-3. To compare branches, click the three dots (...) in the Source Control panel, select Compare with Branch..., and choose main.
+3. Right click on the old commit and say 'view changes'.
+
+<img src="/img/branch-changes.png" width="500">
 
 4. VS Code will open a new tab showing differences between your current branch (`first-branch`) and main.
 
@@ -81,11 +83,17 @@ Practical demonstration for the 2024 lecture, _Good enough computational practic
 
 2. Click the three dots (...) in the Source Control panel and select Merge Branch....
 
+<img src="/img/merge-branch.png" width="500">
+
 3. Choose first-branch from the list to merge it into main.
 
 4. If there are no conflicts, your branches will be merged, and the changes from first-branch will now appear in main.
 
 5. Check the file on the main branch to confirm that the changes from first-branch are now present.
+
+## Exercise 6. Checkout an old commit
+
+1. If you want to roll back to an old version/commit of your code
 
 ## Exercise 6 (bonus). Clone an existing repository
 
